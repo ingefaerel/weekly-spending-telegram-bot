@@ -1,0 +1,15 @@
+{
+  "name": "weekly-spending-telegram-bot",
+  "version": "1.0.0",
+  "description": "a telegram bot for weekly spending",
+  "main": "gram.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.65.1"
+  }
+}
