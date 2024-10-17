@@ -1,7 +1,7 @@
 "use strict"
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '6807636962:AAFnNvr0iyCG80Ta1evpNzx3yKBvXnAmqSw'; // Replace with your own bot token
+const token = '6807636962:AAFnNvr0iyCG80Ta1evpNzx3yKBvXnAmqSw'; 
 const bot = new TelegramBot(token, { polling: true });
 const helpMsg = `Commands:\n/setlimit [amount] - Set weekly spending limit\n/startweek - Start a new week\n/spend [amount] - Log spending\n/getstatus - Get current status\n/help - Display this help message`;
 
